@@ -1,0 +1,25 @@
+.section-family {
+  background-image: url("../../assets/images/family.jpg");
+  height: 130vh;
+  width: 100vw;
+  background-size: 100% 100%;
+  opacity: 0.9;
+  margin-top: 0.5rem;
+}
+
+.fam {
+  color: white;
+  font-size: 7rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.Family-button {
+  background-color: white;
+  border: none;
+  font-size: 3rem;
+  border-radius: 10px;
+  font-weight: 600;
+  text-align: center;
+  width: 15rem;
+}

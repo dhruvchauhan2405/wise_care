@@ -1,0 +1,17 @@
+.docimage {
+  width: 10rem;
+  height: 10rem;
+}
+
+.doccard {
+  /* border: red solid; */
+  border-radius: 10px;
+  padding: 2rem;
+  width: 15rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.doctorname {
+  font-weight: 700;
+  color: #04a7c3;
+}

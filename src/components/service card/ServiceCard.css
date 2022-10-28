@@ -1,0 +1,29 @@
+.service-heading {
+  color: #04a7c3;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.service-card {
+  background-color: #f5fdfd;
+  padding: 1rem;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0.8rem;
+}
+
+.service-desc {
+  margin-left: 1rem;
+  color: gray;
+}
+
+.exp-btn {
+  width: 5rem;
+  background-color: #04a7c3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-left: 28rem;
+}
