@@ -1,7 +1,7 @@
 import React from "react";
 import "./DoctorCard.css";
 
-export const DoctorCard = () => {
+export const DoctorCard = (props) => {
   return (
     <div>
       <div className="container doccard">
@@ -9,7 +9,7 @@ export const DoctorCard = () => {
           <img className="docimage" src="" alt="Doctor Image" />
         </div>
         <div className="row">
-          <div className="row doctorname">Dr. Adarsh Kumar</div>
+          <div className="row doctorname">{props.doctorname}</div>
           <div className="row">Gyneacologist</div>
         </div>
       </div>

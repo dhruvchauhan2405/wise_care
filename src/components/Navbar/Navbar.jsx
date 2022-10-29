@@ -5,7 +5,7 @@ import "bootstrap";
 export const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/">
         WiseCare
       </a>
       <button
@@ -47,7 +47,7 @@ export const Navbar = () => {
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link sign-in " href="#">
+            <a class="nav-link sign-in " href="/signin">
               Sign-In
             </a>
           </li>

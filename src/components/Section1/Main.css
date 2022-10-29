@@ -32,3 +32,20 @@
   margin-left: 1rem;
   color: gray;
 }
+
+.appointment-btn {
+  width: 10rem;
+  color: white;
+  background-color: #04a7c3;
+  border: none;
+  border-radius: 0.3rem;
+  margin-left: 2.5rem;
+  margin-top: 3rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+
+.appointment-btn:hover {
+  color: white;
+}

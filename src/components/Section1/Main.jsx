@@ -50,6 +50,11 @@ export const Main = () => {
                   </div>
                 </div>
               </div>
+              <div className="row">
+                <a href="/bookapppointment" className="appointment-btn">
+                  Book an Appointment
+                </a>
+              </div>
             </div>
           </div>
         </div>
