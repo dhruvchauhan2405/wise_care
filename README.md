@@ -5,7 +5,7 @@
 ### React app routers:
 
 <pre>
-<b>/</b>                         -> <a href="src/Pages/Home.jsx">src/Pages/Home.jsx</a>
+  <b>/</b>                       -> <a href="src/Pages/Homepage/Homepages.jsx">src/Pages/Homepage/Homepages.jsx</a>
   <b>/events</b>                 -> <a href="src/Pages/Events.jsx">src/Pages/Events.jsx</a>
   <b>/members</b>                -> <a href="src/Pages/Members.jsx">src/Pages/Members.jsx</a>
   <b>/signup</b>                 -> <a href="src/Pages/Signup.jsx">src/Pages/Signup.jsx</a>
