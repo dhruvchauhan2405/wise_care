@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+
+        .btn-container{
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            width: 350px;
+            height: 80px;
+            transform: translate(-50%,-50%);
+            background: black;
+            overflow-block: hidden;
+            border-radius: 60px;
+        }
+        .btn{
+            position: relative;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 80px;
+            width: 100%;
+            height: 100%;
+            text-shadow: 0 3px black;
+            color: white;
+            z-index: 1;
+            box-shadow: 0 0 10px white, 0 0 20px black;
+            overflow: hidden;
+            transition: all 0.5s;
+            border-radius: 60px;
+        }
+        .btn:before,.btn:after{
+            position: absolute;
+            content: ' ';
+            width: 100%;
+            height: 100%;
+            top: 0;
+            transform: skewX(20deg);
+            top: 0;
+            z-index: -1;
+            
+        }
+        .btn:before{
+            left: -110%;
+            background-color: rgb(241, 147, 6);
+            transition: all 0.5s;
+        }
+        .btn:after{
+            right: -110%;
+            background-color:teal;
+            transition: all 0.5s;
+        }
+        .btn:hover{
+            text-shadow: 0 0 3px white;
+        }
+        .btn:hover::before{
+            left: -50%;
+        }
+        .btn:hover::after{
+            right: -50%;
+        }
+        body{
+            background-image: url("https://wallpapercave.com/wp/wp2968489.jpg");
+            
+        }
+    </style>
+</head>
+<body style="display: flex; justify-content: center; width: 100%; height: 100%; align-items: center; position: absolute;">
+    {% if res %}
+        <div style="width: 400px; height: 300px; background: red; text-align: center; justify-items: center; vertical-align: middle; line-height: 250px;"><h1>YOU ARE DIABETIC</h1></div>
+    {% else %}
+        <div style="width: 400px; height: 300px; background: green; text-align: center; justify-items: center; vertical-align: middle; line-height: 100px;"><h1>YOU ARE NOT DIABETIC</h1></div>
+    {% endif %}
+
+    <form action="/submit" method="POST"><button class="btn-container">
+        <div class="btn">
+            Back
+        </div>
+    </button></a>
+</body>
+</html>
