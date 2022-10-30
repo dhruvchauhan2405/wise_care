@@ -1,5 +1,5 @@
 import React from "react";
 
 export const MyFamily = () => {
-  return <div></div>;
+  return <div>Family</div>;
 };

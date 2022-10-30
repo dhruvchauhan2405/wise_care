@@ -1,17 +1,23 @@
 import React from "react";
-
+import "./Tests.css";
 export const Tests = () => {
   return (
     <div>
-      <h1>Tests</h1>
+      <h1 className="main-head appointment">Tests</h1>
       <section>
         <div className="container">
           <div className="row">
-            <div className="col">
-              <img src="" alt="Heart" />
+            <div className="col ">
+              <img
+                className="image-testing"
+                src="https://as2.ftcdn.net/v2/jpg/02/36/05/91/1000_F_236059143_5U0TAyZF1ueqmobutzat7ha3vKMfE6S9.jpg"
+                alt="Heart"
+              />
             </div>
             <div className="col">
-              <div className="row">Heading</div>
+              <div className="row">
+                <h1>Breast Cancer Detection</h1>
+              </div>
               <div className="row">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Asperiores accusantium corporis quasi ut incidunt ea doloremque
@@ -37,11 +43,19 @@ export const Tests = () => {
       </section>
       <br />
       <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <section>
         <div className="container">
           <div className="row">
             <div className="col">
-              <div className="row">Heading</div>
+              <div className="row">
+                <h1>Diabetes Detection</h1>
+              </div>
               <div className="row">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Asperiores accusantium corporis quasi ut incidunt ea doloremque
@@ -63,10 +77,24 @@ export const Tests = () => {
               </a>
             </div>
             <div className="col">
-              <img src="" alt="Heart" />
+              <img
+                className="image-testing"
+                src="https://as2.ftcdn.net/v2/jpg/05/36/09/35/1000_F_536093515_rFaPaQlXG8X3bgv6LOFYWFUFnQoj485t.jpg"
+                alt="Heart"
+              />
             </div>
           </div>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </section>
     </div>
   );

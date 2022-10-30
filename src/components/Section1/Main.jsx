@@ -53,7 +53,7 @@ export const Main = () => {
                 </div>
               </div>
               <div className="row">
-                <a href="/bookapppointment" className="appointment-btn">
+                <a href="/bookappointment" className="appointment-btn">
                   Book an Appointment
                 </a>
               </div>
