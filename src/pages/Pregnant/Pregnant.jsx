@@ -8,7 +8,7 @@ export const Pregnant = () => {
         <div className="container">
           <div className="row">
             <div className="col">
-              <div className="row">Heading</div>
+              <div className="row main-head appointment">Pregnancy</div>
               <div className="row">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Asperiores accusantium corporis quasi ut incidunt ea doloremque
@@ -25,22 +25,27 @@ export const Pregnant = () => {
                 doloribus eveniet dolorem officiis?
               </div>
               <br />
-              <a href="" className="sign-in">
-                Read More
-              </a>
             </div>
             <div className="col">
-              <img src="" alt="Pregnant" />
+              <br />
+              <br />
+              <br />
+              <br />
+              <img
+                className="image-testing"
+                src="https://pregnantchicken.com/content/images/size/w1000/2022/10/mom-holding-baby-s-hand.jpg"
+                alt="Pregnant"
+              />
             </div>
           </div>
         </div>
       </section>
 
       <section>
-        <h1>Blogs</h1>
-        <DietBlog></DietBlog>
-        <DietBlog></DietBlog>
-        <DietBlog></DietBlog>
+        <br />
+        <br />
+        <br />
+        <h1 className="main-head appointment">Blogs</h1>
         <DietBlog></DietBlog>
       </section>
     </div>

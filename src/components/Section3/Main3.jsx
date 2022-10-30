@@ -43,13 +43,13 @@ export const Main3 = () => {
       servicename: "Diet Plans",
       serviceDesc:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, totam?",
-      link: "/dietplans",
+      link: "https://www.muscleandstrength.com/diet-plans",
     },
     {
       servicename: "Health Blogs",
       serviceDesc:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, totam?",
-      link: "/healthblogs",
+      link: "https://www.muscleandstrength.com/articles",
     },
     {
       servicename: "Family",

@@ -3,6 +3,15 @@
 }
 
 .image-blog {
-  border: red solid 1px;
-  padding: 10rem;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76rem;
+}
+
+.para {
+  padding: 2rem;
 }
