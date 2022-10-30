@@ -1,4 +1,6 @@
 import React from "react";
+import music from "../../assets/Music/music2.mp3";
+import "./Meditation.css";
 
 export const Meditation = () => {
   return (
@@ -38,6 +40,71 @@ export const Meditation = () => {
               alt="Heart"
             />
           </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <div className="container">
+        <div className="main-head appointment">Nature Sounds</div>
+        <div className="row">
+          <div className="col">
+            <div className="row cardi">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/koRbYQyPU0U"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div className="row cardi">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/E7qRkUYu580"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div className="col">
+            <div className="row cardi">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/D1lH55N72U0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div className="row cardi">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/Hg1-NHJ7-sY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 className="main-head appointment">
+            Sit Straight and Close your Eyes
+          </h1>
         </div>
       </div>
     </div>
