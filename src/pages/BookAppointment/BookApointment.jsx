@@ -1,4 +1,5 @@
 import React from "react";
+import { Main2 } from "../../components/Section2/Main2";
 import "./BookAppointment.css";
 
 export const BookApointment = () => {
@@ -58,6 +59,7 @@ export const BookApointment = () => {
         </div>
         <div className="col"></div>
       </div>
+      <Main2></Main2>
     </div>
   );
 };

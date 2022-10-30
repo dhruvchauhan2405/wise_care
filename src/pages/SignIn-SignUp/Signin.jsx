@@ -4,40 +4,43 @@ import "./Signin.css";
 
 export const Signin = () => {
   return (
-    <div>
-      <div className="FormCenter">
+    <div className="fo">
+      <div className="formholder">
         <form>
-          <div className="FormField">
-            <label className="FormField__Label" htmlFor="email">
+          <div className="conta">
+            <label className="label-f" htmlFor="email">
               E-Mail Address
             </label>
+            <br />
             <input
               type="email"
               id="email"
-              className="FormField__Input"
+              className="input-field"
               placeholder="Enter your email"
               name="email"
             />
           </div>
 
-          <div className="FormField">
-            <label className="FormField__Label" htmlFor="password">
+          <div className="conta">
+            <label className="label-f" htmlFor="password">
               Password
             </label>
+            <br />
             <input
               type="password"
               id="password"
-              className="FormField__Input"
+              className="input-field"
               placeholder="Enter your password"
               name="password"
             />
           </div>
+          <br />
 
-          <div className="FormField">
-            <button className="FormField__Button mr-20">Sign In</button>{" "}
-            <Link to="/signup" className="FormField__Link">
-              Create an account
-            </Link>
+          <div className="conta">
+            <a className="sign-in" href="">
+              Sign In
+            </a>
+            <Link to="/signup">Create an account</Link>
           </div>
         </form>
       </div>

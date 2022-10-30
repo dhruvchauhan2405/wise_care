@@ -3,65 +3,59 @@ import { Link } from "react-router-dom";
 
 export const SignUp = () => {
   return (
-    <div>
-      <div className="FormCenter">
-        <form className="FormFields">
-          <div className="FormField">
-            <label className="FormField__Label" htmlFor="name">
+    <div className="fo">
+      <div className="formholder">
+        <form>
+          <div className="conta">
+            <label className="label-f" htmlFor="name">
               Full Name
             </label>
+            <br />
             <input
               type="text"
+              className="input-field"
               id="name"
-              className="FormField__Input"
               placeholder="Enter your full name"
               name="name"
             />
           </div>
-          <div className="FormField">
-            <label className="FormField__Label" htmlFor="password">
+          <div className="conta">
+            <label className="label-f" htmlFor="password">
               Password
             </label>
+            <br />
             <input
               type="password"
+              className="input-field"
               id="password"
-              className="FormField__Input"
               placeholder="Enter your password"
               name="password"
             />
           </div>
-          <div className="FormField">
-            <label className="FormField__Label" htmlFor="email">
+          <div className="conta">
+            <label className="label-f" htmlFor="email">
               E-Mail Address
             </label>
+            <br />
             <input
               type="email"
               id="email"
-              className="FormField__Input"
+              className="input-field"
               placeholder="Enter your email"
               name="email"
             />
           </div>
 
-          <div className="FormField">
-            <label className="FormField__CheckboxLabel">
-              <input
-                className="FormField__Checkbox"
-                type="checkbox"
-                name="hasAgreed"
-              />{" "}
-              I agree all statements in{" "}
-              <a href="" className="FormField__TermsLink">
-                terms of service
-              </a>
-            </label>
+          <div className="conta">
+            <input type="checkbox" name="hasAgreed" /> I agree all statements in{" "}
+            <a href="">terms of service</a>
           </div>
 
-          <div className="FormField">
-            <button className="FormField__Button mr-20">Sign Up</button>{" "}
-            <Link to="/signin" className="FormField__Link">
-              I'm already member
-            </Link>
+          <div className="conta">
+            <a href="" className="sign-in">
+              Sign Up
+            </a>
+            <Link to="/signin">I'm already member</Link>
           </div>
         </form>
       </div>
