@@ -4,7 +4,7 @@ import { DietBlog } from "../../components/DietBlog/DietBlog";
 export const HealthBolgs = () => {
   return (
     <div>
-      HealthBolgs
+      HealthBlogs
       <DietBlog></DietBlog>
       <DietBlog></DietBlog>
       <DietBlog></DietBlog>

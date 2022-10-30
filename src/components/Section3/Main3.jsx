@@ -7,7 +7,7 @@ export const Main3 = () => {
       servicename: "Testing",
       serviceDesc:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, totam?",
-      link: "/",
+      link: "/tests",
     },
     {
       servicename: "Meditation",

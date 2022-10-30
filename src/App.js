@@ -34,7 +34,7 @@ function App() {
           <Route path="/myfamily" element={<MyFamily />} />
           <Route path="/tests" element={<Tests />} />
           <Route path="/dietplans" element={<DietPlans />} />
-          <Route path="/healthbolgs" element={<HealthBolgs />} />
+          <Route path="/healthblogs" element={<HealthBolgs />} />
           <Route path="/meditation" element={<Meditation />} />
           <Route path="/medsmart" element={<MedsMart />} />
         </Routes>
