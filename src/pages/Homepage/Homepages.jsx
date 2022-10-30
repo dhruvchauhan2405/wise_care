@@ -16,6 +16,7 @@ export const Homepages = () => {
       <Main3></Main3>
       <br></br>
       <br></br>
+      <Main4></Main4>
     </div>
   );
 };
