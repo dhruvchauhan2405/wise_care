@@ -49,3 +49,9 @@
 .appointment-btn:hover {
   color: white;
 }
+
+.blue {
+  color: #1aa7c0;
+  /* font-size: larger; */
+  text-decoration: underline;
+}

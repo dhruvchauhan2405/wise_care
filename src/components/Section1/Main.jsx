@@ -9,7 +9,9 @@ export const Main = () => {
         <div className="col">
           <div className="row ">
             <h1 className="main-head">
-              Protect Your Health <br /> And Take Care Of <br /> Your Health
+              Take Care Of Your <br /> Health{" "}
+              <span className="blue"> Anytime</span> <br />{" "}
+              <span className="blue">Anywhere</span>
             </h1>
           </div>
           <div className="row">
@@ -27,7 +29,7 @@ export const Main = () => {
                   <div className="container">
                     <div className="row bolder">Health Guarantee Forever</div>
                     <div className="row desc">
-                      Schedule your favorite doctor anytime
+                      We provide the best heathcare support
                     </div>
                   </div>
                 </div>
@@ -35,17 +37,17 @@ export const Main = () => {
               <div className="row">
                 <div className="col">
                   <div className="container">
-                    <div className="row bolder">Make an appointment</div>
+                    <div className="row bolder">Find your best Doctor</div>
                     <div className="row desc">
-                      Schedule your favorite doctor anytime
+                      Get the best Doctor consultation you need
                     </div>
                   </div>
                 </div>
                 <div className="col">
                   <div className="container">
-                    <div className="row bolder">Make an appointment</div>
+                    <div className="row bolder">Spread in various places</div>
                     <div className="row desc">
-                      Schedule your favorite doctor anytime
+                      Now clinics are available in various places
                     </div>
                   </div>
                 </div>

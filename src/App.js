@@ -15,6 +15,7 @@ import { MyFamily } from "./pages/MyFamily/MyFamily";
 import { Tests } from "./pages/Tests/Tests";
 import { DietPlans } from "./pages/DietPlans/DietPlans";
 import { HealthBolgs } from "./pages/HealthBlogs/HealthBolgs";
+import { Meditation } from "./pages/Meditation/Meditation";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/tests" element={<Tests />} />
           <Route path="/dietplans" element={<DietPlans />} />
           <Route path="/healthbolgs" element={<HealthBolgs />} />
+          <Route path="/meditation" element={<Meditation />} />
         </Routes>
       </Router>
     </div>
