@@ -34,7 +34,10 @@ export const Tests = () => {
                 doloribus eveniet dolorem officiis?
               </div>
               <br />
-              <a href="" className="sign-in">
+              <a
+                href="https://breastcancers.herokuapp.com/"
+                className="sign-in"
+              >
                 Test
               </a>
             </div>
@@ -72,7 +75,7 @@ export const Tests = () => {
                 doloribus eveniet dolorem officiis?
               </div>
               <br />
-              <a href="" className="sign-in">
+              <a href="https://diabetiic.herokuapp.com/" className="sign-in">
                 Test
               </a>
             </div>
