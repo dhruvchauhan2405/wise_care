@@ -7,61 +7,61 @@ export const Main3 = () => {
       servicename: "Testing",
       serviceDesc:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, totam?",
-      link: "/tests",
+      link: "/",
     },
     {
       servicename: "Meditation",
       serviceDesc:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, totam?",
-      link: "/meditation",
+      link: "/",
     },
     {
       servicename: "YogaPedia",
       serviceDesc:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, totam?",
-      link: "/yoga",
+      link: "/",
     },
     {
       servicename: "ExercisePedia",
       serviceDesc:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, totam?",
-      link: "/exercise",
+      link: "/",
     },
     {
       servicename: "Pregnancy",
       serviceDesc:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, totam?",
-      link: "/pregnant",
+      link: "/",
     },
     {
       servicename: "MedsMart",
       serviceDesc:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, totam?",
-      link: "/medsmart",
+      link: "/",
     },
     {
       servicename: "Diet Plans",
       serviceDesc:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, totam?",
-      link: "https://www.muscleandstrength.com/diet-plans",
+      link: "/",
     },
     {
       servicename: "Health Blogs",
       serviceDesc:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, totam?",
-      link: "https://www.muscleandstrength.com/articles",
+      link: "/",
     },
     {
       servicename: "Family",
       serviceDesc:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, totam?",
-      link: "/myfamily",
+      link: "/",
     },
     {
       servicename: "Book Appointment",
       serviceDesc:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, totam?",
-      link: "/bookappointment",
+      link: "/",
     },
   ];
   return (
